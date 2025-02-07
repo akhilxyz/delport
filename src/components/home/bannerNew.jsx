@@ -34,25 +34,27 @@ const LandingPage = () => {
       >
         <p
           style={{
-            marginBottom: "15px",
-            fontSize: "1.25rem",
-            fontWeight: "450",
-            letterSpacing: "1px",
-            textTransform: "uppercase",
-            color:'white',
-          }}
+              marginBottom: "15px",
+              fontSize: "1.25rem",
+              fontWeight: "450",
+              letterSpacing: "1px",
+              textTransform: "none", // Changed from "uppercase" to "none"
+              color: "white",
+              }}
         >
-          WELCOME TO{" "}
-          <span
-            className="highlight"
-            style={{
-              color: "#e1aa4c",
-              fontWeight: "700",
-            }}
-          >
-            GOLDEN MILE
-          </span>
+          Welcome to{" "}
+        <span
+           className="highlight"
+           style={{
+                   color: "#e1aa4c",
+                   fontWeight: "700",
+                   textTransform: "none", // Ensures "Golden Mile" stays lowercase
+                  }}
+        >
+         Golden Mile
+        </span>
         </p>
+
         <p
           className="fade-text"
           style={{
@@ -62,9 +64,9 @@ const LandingPage = () => {
             marginBottom: "20px",
           }}
         >
-          {bannerData[currentBanner]?.banner_title || "Setting the gold"}
+          {bannerData[currentBanner]?.banner_title || "Setting The Gold"}
           <br />
-          {bannerData[currentBanner]?.title_two || "Standard in transportation"}
+          {bannerData[currentBanner]?.title_two || "Standard In Transportation"}
         </p>
         <div
           className="buttons"

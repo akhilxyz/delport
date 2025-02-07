@@ -32,13 +32,14 @@ const LandingPage = () => {
           color: "#fff",
         }}
       >
-        <h4
+        <p
           style={{
             marginBottom: "15px",
             fontSize: "1.25rem",
-            fontWeight: "400",
+            fontWeight: "450",
             letterSpacing: "1px",
             textTransform: "uppercase",
+            color:'white',
           }}
         >
           WELCOME TO{" "}
@@ -51,8 +52,8 @@ const LandingPage = () => {
           >
             GOLDEN MILE
           </span>
-        </h4>
-        <h1
+        </p>
+        <p
           className="fade-text"
           style={{
             fontSize: "4.8rem",
@@ -63,8 +64,8 @@ const LandingPage = () => {
         >
           {bannerData[currentBanner]?.banner_title || "Setting the gold"}
           <br />
-          {bannerData[currentBanner]?.title_two || "Standard IN transportation"}
-        </h1>
+          {bannerData[currentBanner]?.title_two || "Standard in transportation"}
+        </p>
         <div
           className="buttons"
           style={{

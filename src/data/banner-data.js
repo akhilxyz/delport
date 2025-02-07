@@ -17,24 +17,24 @@ const bannerData = [
     text: "welcome to Golden Mile",
     banner_title: (
       <span style={{color: "white"}}>
-        Setting the <span style={{ color: "#d8a956" }}>gold</span>
+        Setting The <span style={{ color: "#d8a956" }}>Gold</span>
       </span>
     ),
-    title_two: <span style={{color:"white"}}>Standard in transportation</span>
+    title_two: <span style={{color:"white"}}>Standard In Transportation</span>
   },
   {
     id: 5,
     image: '',
     text: "welcome to golden mile",
-    banner_title: <span style={{color: "white"}}>Customer satisfaction</span>,
-    title_two: <span style={{color: "white"}}>is our mission.</span>,
+    banner_title: <span style={{color: "white"}}>Customer Satisfaction</span>,
+    title_two: <span style={{color: "white"}}>Is Our Mission.</span>,
   },
   {
     id: 6,
     image: '',
     text: "welcome to Golden Mile",
-    banner_title: <span style={{color: "white"}}>Breaking the</span>,
-    title_two: <span style={{color: "white"}}>mold and shattering expectations.</span>,
+    banner_title: <span style={{color: "white"}}>Breaking The</span>,
+    title_two: <span style={{color: "white"}}>Mold And Shattering Expectations.</span>,
   },
 ];
 

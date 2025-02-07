@@ -25,9 +25,9 @@ const ApproachArea = () => {
                                     As the years went by and as responsibilities grew, their son expressed an interest in learning the ropes in Transporation and was compelled to help his family. He soon found his way into a dispatch office and so began his training in the business.
                                     And so came to be the idea of opening their own Transporation company. In 2014 Chandi purchased his own truck and became an owner operator. Within a couple years they had purchased a few additional units and had their very own small fleet and so the name
                                     *Golden Mile Enterprises, Inc was born in 2016.</p>
-                                <p> In 2018 Chandi parked his truck and joined his wife and son in the dispatch office to focus on growing the company. Together, they have grown to a fleet of 350+ Trucks, over 700+ trailers and 4 Terminals across the U.S. providing transportation services to many top tier customers with a focus around transparency ano service.
+                                <p> In 2018 Chandi parked his truck and joined his wife and son in the dispatch office to focus on growing the company. Together, they have grown to a fleet of 350+ Trucks, over 700+ trailers and 4 Terminals across the U.S. providing transportation services to many top tier customers with a focus around transparency any service.
                                     The aim is to be one of the most successful Transporation companies in the industry.
-                                    Leading their team from a family-oriented management perspective and growing to 1000+ units. Ifyou join the Golden Mile Team, you are not just another employee, you are Family.
+                                    Leading their team from a family-oriented management perspective and growing to 1000+ units. If you join the Golden Mile Team, you are not just another employee, you are Family.
                                 </p>
 
                             </div>

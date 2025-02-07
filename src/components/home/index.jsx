@@ -16,7 +16,7 @@ const Index = () => {
         <main>
               <div className="video-background-container">
                 {/* Video Element */}
-                <video className="background-video" autoPlay loop muted playsInline>
+                <video style={{ filter: 'brightness(70%)'}} className="background-video" autoPlay loop muted playsInline>
                     <source src="/assets/videos/video-lite.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

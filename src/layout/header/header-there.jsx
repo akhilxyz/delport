@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Logo from '@assets/img/logo/logo.png';
-import imgFive from "@assets/img/insights/nmsdc-light.png";
+import imgFive from "@assets/img/insights/mbe-certification.png";
 import OffCanvasMain from '@components/common/off-canvas';
 import Menus from './menus';
 import companyData from '@data/company-data';

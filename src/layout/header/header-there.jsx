@@ -68,7 +68,7 @@ const HeaderThere = () => {
                                                 </div>
                                             </div>
                                             <div style={{ display: 'flex', position: "relative", justifyContent: "center", alignItems: "center" }}>
-                                                <Image src={imgFive} width={125} height={80} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '-9px' }} />
+                                                <Image src={imgFive} width={125} height={100} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '-9px' }} />
                                             </div>
                                         </div>
                                     </div>

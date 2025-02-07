@@ -29,9 +29,9 @@ const Breadcrumb = ({ title, subTitle }) => {
     return (
         <section className="page-title-area breadcrumb-spacing" style={{ backgroundImage: `url(${getBackgroundImage()})`, marginTop:'-120px' }}>
             <div className="container">
-                <div className="row justify-content-center mb-50">
+                <div className="row justify-content-center mb-120">
                     <div className="col-xxl-9">
-                        <div className="page-title-wrapper text-center mt-50">
+                        <div className="page-title-wrapper text-center mt-100">
                             <h3 className="page-title mb-30">{title}</h3>
                             <div className="breadcrumb-menu">
                                 <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">

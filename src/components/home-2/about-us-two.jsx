@@ -11,7 +11,7 @@ const AboutUsTwo = () => {
                 <div className="row align-items-center wow fadeInU" data-wow-duration="1.5s" data-wow-delay=".3s">
                     <div className="col-xl-6 col-lg-6">
                         <div className="about__3-img-wrapper p-relative mb-60">
-                            <div className="about__3-top w-img">
+{/*                             <div className="about__3-top w-img">
                                 <Image
                                     src={about_img_2}
                                     layout="responsive"
@@ -19,7 +19,7 @@ const AboutUsTwo = () => {
                                     height={300}
                                     alt="About Image 2"
                                 />
-                            </div>
+                            </div> */}
                             <div className="about__3-main w-img">
                                 <Image
                                     src={about_img_3}

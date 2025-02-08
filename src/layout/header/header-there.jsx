@@ -21,13 +21,17 @@ const HeaderThere = () => {
                     <div className="header__bottom p-relative">
                         <div className="header__bottom-info">
                             <div className="row align-items-center">
-                                <div className="col-xl-2 col-lg-2 col-md-2 col-9">
-                                    <div className="logo logo-transform">
-                                        <Link href="/">
-                                            <Image priority src={Logo} style={{ width: "auto", height: "auto"}} alt="Logo" />
-                                        </Link>
-                                    </div>
-                                </div>
+                            <div className="col-xl-2 col-lg-2 col-md-2 col-9 d-flex align-items-center" style={{ position: "relative" }}>
+                               <div className="logo logo-transform" style={{ position: "absolute", top: "50%", left:"-50px", transform: "translateY(-50%)", marginTop:"57px" }}>
+                                  <Link href="/">
+                                   <Image 
+                                    priority 
+                                     src={Logo} 
+                                      style={{ width: "300px", maxWidth: "none", height: "auto" }} 
+                                        alt="Logo" />
+                                    </Link>
+                                 </div>
+                            </div>
                                 <div className="col-xl-10 col-lg-10 col-md-10 col-3">
                                     <div className="text-end d-xl-none">
                                         <div className="header__toggle-btn sidebar-toggle-btn">
@@ -68,7 +72,7 @@ const HeaderThere = () => {
                                                 </div>
                                             </div>
                                             <div style={{ display: 'flex', position: "relative", justifyContent: "center", alignItems: "center" }}>
-                                                <Image src={imgFive} width={125} height={80} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '-9px' }} />
+                                                <Image src={imgFive} width={145} height={90} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '30px' }} />
                                             </div>
                                         </div>
                                     </div>

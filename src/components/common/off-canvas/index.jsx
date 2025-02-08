@@ -21,10 +21,18 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
             </button>
           </div>
           <div className="sidebar__content">
-            <div className="sidebar__logo mb-40">
-              <Link href="/">
-                <Image src={logo} style={{ width: "150px", height: "auto" }} alt="Logo" />
-              </Link>
+          <div className="sidebar__logo mb-40">
+            <Link href="/">
+            <Image 
+               src={logo} 
+                alt="Logo"
+                style={{ 
+                 width: "150px", 
+                  height: "auto", 
+                  display: "block",  /* Ensures margin works */
+                 }} 
+             />
+           </Link>
             </div>
             {/* <div className="sidebar__search mb-25">
               <form onSubmit={handleSubmit}>

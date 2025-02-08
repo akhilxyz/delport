@@ -17,7 +17,7 @@ const bannerData = [
     text: "welcome to Golden Mile",
     banner_title: (
       <span style={{color: "white"}}>
-        Setting The <span style={{ color: "#d8a956" }}>Gold</span>
+        Setting the <span style={{ color: "#d8a956" }}>Gold</span>
       </span>
     ),
     title_two: <span style={{color:"white"}}>Standard In Transportation</span>

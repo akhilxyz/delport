@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Logo from '@assets/img/logo/logo.png';
-import imgFive from "@assets/img/insights/mbe-certification.png";
+import imgFive from "@assets/img/insights/nmsdc-light.png";
 import OffCanvasMain from '@components/common/off-canvas';
 import Menus from './menus';
 import companyData from '@data/company-data';
@@ -24,7 +24,7 @@ const HeaderThere = () => {
                                 <div className="col-xl-2 col-lg-2 col-md-2 col-9">
                                     <div className="logo logo-transform">
                                         <Link href="/">
-                                            <Image priority src={Logo} style={{ width: "auto", height: "auto" }} alt="Logo" />
+                                            <Image priority src={Logo} style={{ width: "auto", height: "auto"}} alt="Logo" />
                                         </Link>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ const HeaderThere = () => {
                                                 </div>
                                             </div>
                                             <div style={{ display: 'flex', position: "relative", justifyContent: "center", alignItems: "center" }}>
-                                                <Image src={imgFive} width={125} height={100} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '-9px' }} />
+                                                <Image src={imgFive} width={125} height={80} alt="Insight Logo" style={{ position: 'absolute', left: '10px', top: '-9px' }} />
                                             </div>
                                         </div>
                                     </div>

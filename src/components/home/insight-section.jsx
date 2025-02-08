@@ -94,6 +94,7 @@ const InsightSection = () => {
                   textAlign: "center",
                   fontFamily: "Oswald, sans-serif",
                   padding: "10px",
+                  marginTop:"10px",
                 }}
               >
                 Recognized Affiliations 
@@ -115,7 +116,8 @@ const InsightSection = () => {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      padding: "2px",
+                      padding: "10px",
+                      margin:"10px",
                     }}
                   >
                     <Image
@@ -134,9 +136,9 @@ const InsightSection = () => {
             {/* YouTube Section */}
             <div
               style={{
-                marginTop: "50px",
+                marginTop: "10px",
                 borderTop: "1px solid black",
-                paddingTop: "20px",
+                paddingTop: "10px",
                 textAlign: "center",
               }}
             >
@@ -148,7 +150,7 @@ const InsightSection = () => {
                   textalign: "center",
                   fontFamily: "Oswald, sans-serif",
                   padding: "10px",
-                  marginBottom: "30px", // Added space below the heading
+                  marginBottom: "20px", // Added space below the heading
                 }}
               >
                 Community Involvement 

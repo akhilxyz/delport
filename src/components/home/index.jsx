@@ -32,11 +32,12 @@ const Index = () => {
 
             {/* Other sections */}
             <AboutUs />
+            <FunfactArea />
+
             {/* <ServicesArea /> */}
             <WorkProcessArea />
             <BrandAreaSection />
             <TestimonialArea />
-            <FunfactArea />
             <InsightSection />
             <AccordionArea />
         </main>

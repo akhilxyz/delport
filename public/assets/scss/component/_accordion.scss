@@ -42,7 +42,7 @@
             box-shadow: none;
             padding: 19px 29px;
             @include border-radius(0px !important);
-            text-transform: uppercase;
+            text-transform: capitalize;
             @media #{$xxs} {
                 font-size: 16px;
             }

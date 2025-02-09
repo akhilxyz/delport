@@ -99,7 +99,7 @@
 
 			h5 {
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				letter-spacing: 0px;
 				color: var(--clr-common-color-red);
 			}
@@ -402,7 +402,7 @@
 				font-weight: 600;
 				padding: 17px 0;
 				display: block;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				font-weight: 600;
 				font-family: $oswald;
 			}
@@ -637,7 +637,7 @@
 			background: var(--clr-common-slate);
 			display: block;
 			padding: 17px 40px;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			color: var(--clr-common-black);
 			font-weight: 600;
 			font-family: $oswald;
@@ -949,7 +949,7 @@ a.meanmenu-reveal {
 	color: #fff;
 	border-top: 1px solid #e0e3ed;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .mean-container .mean-nav ul li li a {

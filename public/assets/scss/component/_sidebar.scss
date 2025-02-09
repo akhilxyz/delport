@@ -153,7 +153,7 @@
 					color: var(--clr-common-white);
 					border-top: 1px solid var(--clr-common-border-9);
 					text-decoration: none;
-					text-transform: uppercase;
+					text-transform: capitalize;
 					color: var(--clr-common-heading);
 					font-weight: 600;
 					font-family: $oswald;
@@ -246,7 +246,7 @@
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-family: "Oswald", sans-serif;
 }
 

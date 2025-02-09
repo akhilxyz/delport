@@ -84,9 +84,13 @@ const AccordionArea = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6">
                         <div className="testimonial-two mb-85">
-                            <h2 className='mb-15'>YOUR BUSINESS DESERVES</h2>
-                            <h2 className='mb-12'>RELIABLE AND GUARANTEED</h2>
-                            <h2 className='mb-18'>SHIPPING SERVICES</h2>
+                            <h2 className='mb-15'>
+                                Your business deserves
+                            </h2>
+                            <h2 className='mb-12'>
+                                reliable and guaranteed
+                            </h2>
+                            <h2 className='mb-18'>shipping services</h2>
                             <p>GM understands that small and medium-sized businesses like yours are vital to the U.S. economy. That&apos;s why it&apos;s crucial for you to have dependable and cost-effective shipping solutions.</p>
 
                             <Link className="fill-btn clip-md-btn" href="/contact" onClick={() => document.getElementById('name').focus()}>Request a Quote</Link>

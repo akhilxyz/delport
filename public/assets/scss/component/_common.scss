@@ -131,8 +131,8 @@ button:focus {
 	outline: 0;
 	border: 0;
 }
-.uppercase {
-	text-transform: uppercase;
+.capitalize {
+	text-transform: capitalize;
 }
 .capitalize {
 	text-transform: capitalize;
@@ -149,7 +149,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.2;
 	letter-spacing: -0.3px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	@include transition(0.3s);
 }
 
@@ -217,7 +217,7 @@ a:hover{
 	color: var(--clr-common-placeholder);
 	font-size: 16px;
 	opacity: 1;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-family: $oswald;
 	font-weight: 400;
 }
@@ -225,7 +225,7 @@ a:hover{
 	color: var(--clr-common-placeholder);
 	font-size: 16px;
 	opacity: 1;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-family: $oswald;
 	font-weight: 400;
 }
@@ -509,7 +509,7 @@ a:hover{
 		position: relative;
 		overflow: hidden;
 		text-align: center;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-family: $oswald;
 		i{
 			margin-right: 20px;
@@ -555,7 +555,7 @@ a:hover{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	&-lg{
 		padding: 0 50px;
 	}
@@ -585,7 +585,7 @@ a:hover{
 		padding: 0px 55px;
 		line-height: 60px;
 		font-weight: 600;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		color: var(--clr-common-white);
 		font-family: $oswald;
 		position: relative;
@@ -664,7 +664,7 @@ a:hover{
   .section__title{
 	.sub-title, span{
 		color: var(--clr-common-color-red-3);
-		text-transform: uppercase;
+		text-transform: capitalize;
 		margin-bottom: 14px;
 		display: block;
 		font-weight: 400;
@@ -832,7 +832,7 @@ a:hover{
 				@include transition(0.3s);
 				font-size: 16px;
 				font-weight: 500;
-				text-transform: uppercase;
+				text-transform: capitalize;
 			}
 			a{
 				&:hover{
@@ -859,7 +859,7 @@ a:hover{
 	font-weight: 700;
 	font-family: $oswald;
 	line-height: 1;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	@media #{$md} {
 		font-size: 50px;
 		margin-bottom: 20px;

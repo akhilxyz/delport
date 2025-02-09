@@ -34,7 +34,7 @@
 //                      <div
 //                         className="header__top-3-text theme-bg clip-box-xxs d-flex align-items-center justify-content-between">
 //                         <div className="header__text">
-//                            <span className="uppercase">We’re more than just transport. <b><Link href="/contact">Free
+//                            <span className="capitalize">We’re more than just transport. <b><Link href="/contact">Free
 //                               Counsultancy</Link></b> </span>
 //                         </div>
 //                         <div className="header__top-3-link t-right">

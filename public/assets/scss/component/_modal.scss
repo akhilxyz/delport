@@ -44,7 +44,7 @@
 				margin-bottom: 0px;
 				padding-right: 65px;
 				margin-bottom: 15px;
-				text-transform: uppercase;
+				text-transform: capitalize;
 			}
 		}
 		&-des {
@@ -135,7 +135,7 @@
 		& span {
 			font-size: 14px;
 			color: #777;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			&:first-child {
 				color: var(--clr-theme-1);
 				padding-right: 5px;

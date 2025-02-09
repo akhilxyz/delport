@@ -20,7 +20,7 @@
             }
             span{
                 font-size: 14px;
-                text-transform: uppercase;
+                text-transform: capitalize;
                 margin-bottom: 8px;
                 display: block;
                 color: var(--clr-common-white);
@@ -92,7 +92,7 @@
         a{
             color: var(--clr-common-color-11);
             margin-right: 10px;
-            text-transform: uppercase;
+            text-transform: capitalize;
             font-family: $oswald;
             &:hover{
                 color: var(--clr-common-white);
@@ -137,7 +137,7 @@
         &-subtitle {
             font-size: 14px;
             color: var(--clr-common-white);
-            text-transform: uppercase;
+            text-transform: capitalize;
             font-family: $oswald;
             font-weight: 400;
 

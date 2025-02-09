@@ -100,7 +100,7 @@
                 }
                 a {
                     font-size: 14px;
-                    text-transform: uppercase;
+                    text-transform: capitalize;
                     color: var(--clr-common-heading);
                     font-weight: 600;
                     font-family: $oswald;
@@ -454,7 +454,7 @@
             clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%);
             color: var(--clr-common-heading);
             background: var(--clr-common-white);
-            text-transform: uppercase;
+            text-transform: capitalize;
             @media #{$lg,$xxs}{
                 padding: 17px 20px;
             }

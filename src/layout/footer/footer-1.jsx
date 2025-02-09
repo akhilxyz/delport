@@ -42,7 +42,7 @@ const FooterOne = () => {
                                             style={{ backgroundImage: `url(${item.img.src})` }}>
                                             <div className="call__cta-content">
                                                 <h6 className="call__cta-content-small-title">{item.title}</h6>
-                                                <h3 className="call__cta-content-title"><Link href={item.contact}>{item.call_num}</Link></h3>
+                                                <h3 className="call__cta-content-title"><Link style={{textTransform:'lowercase'}} href={item.contact}>{item.call_num}</Link></h3>
                                             </div>
                                             <div className="call__cta-icon">
                                                 <i className={item.icon}></i>

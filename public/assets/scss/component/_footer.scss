@@ -216,7 +216,7 @@
 		line-height: 60px;
 		@include transition(0.3s);
 		clip-path: polygon(3% 0, 100% 0, 97% 100%, 0% 100%);
-		text-transform: uppercase;
+		text-transform: capitalize;
 		padding: 0px 36px;
 		&:hover {
 			color: var(--clr-common-heading);
@@ -304,7 +304,7 @@
 			
 		}
 		a {
-			text-transform: uppercase;
+			text-transform: capitalize;
 			color: var(--clr-common-color-red);
 			font-weight: 600;
 			font-family: $oswald;
@@ -350,7 +350,7 @@
 			line-height: 1;
 			color: var(--clr-common-color-8);
 			font-weight: 600;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			margin-bottom: 0;
 			font-family: $oswald;
 			a{
@@ -361,7 +361,7 @@
 			p {
 				color: var(--clr-common-black);
 				font-size: 16px;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				font-weight: 600;
 				margin-bottom: 0;
 			}

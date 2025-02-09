@@ -12,7 +12,7 @@ import { auto } from '@popperjs/core';
 
 const TestimonialArea = () => {
     return (
-        <section className="testimonial-area testimonial-space pb-100 pt-120 bg-css"
+        <section className="testimonial-area testimonial-space pb-60 pt-30 bg-css"
             style={{ backgroundImage: `url(${testimonial_bg.src})`, position: 'relative'}}>
             <div className="container">
                 <div className="row justify-content-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">

@@ -40,7 +40,7 @@
 }
 .product-name {
 	font-size: 20px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	@media #{$xl} {
 		font-size: 22px;
 	}
@@ -163,7 +163,7 @@
 	font-size: 14px;
 	font-weight: 700;
 	color: var(--clr-theme-1);
-	text-transform: uppercase;
+	text-transform: capitalize;
 	background: #ffe400;
 	display: inline-block;
 	height: 20px;
@@ -218,7 +218,7 @@
 .product-d-meta {
 	span {
 		font-size: 16px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		&:first-child {
 			color: var(--clr-theme-1);
 			font-weight: 700;
@@ -305,7 +305,7 @@
 .product-details-nav{
 	.nav-link {
 		font-size: 16px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		color: var(--clr-theme-1);
 		padding: 0 28px;
 		height: 60px;
@@ -348,7 +348,7 @@
 	margin-bottom: 0;
 	display: inline-block;
 	width: 25%;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	min-width: 100px;
 }
 .product__details-info ul li span {
@@ -368,7 +368,7 @@
 	}
 }
 .course-review-list h5 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .course-start-icon i {
 	color: var(--clr-theme-1);
@@ -383,7 +383,7 @@
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .comment-title p {
@@ -600,7 +600,7 @@
 		font-size: 14px;
 		line-height: 60px;
 		color: var(--clr-theme-1);
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 700;
 		border-radius: 50%;
 	}
@@ -653,7 +653,7 @@
 .items-showing-text {
 	font-size: 18px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	color: var(--clr-theme-1);
 }
 .filter-buttons {
@@ -678,7 +678,7 @@
 .filter-category-btn {
 	.btn {
 		font-size: 14px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 600;
 		color: var(--clr-theme-1);
 		border: 0;
@@ -698,7 +698,7 @@
 .filter-item-btn {
 	.btn {
 		font-size: 14px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight: 600;
 		color: var(--clr-theme-1);
 		border: 0;
@@ -1056,7 +1056,7 @@ p.checkout-coupon input[type="submit"]:hover {
 	line-height: 40px;
 	margin-inline-end: 15px;
 	padding: 0 15px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	transition: all 0.3s ease 0s;
 }
 
@@ -1093,7 +1093,7 @@ p.checkout-coupon input[type="text"] {
 	width: 100%;
 }
 .checkbox-form h3 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .country-select {
@@ -1252,7 +1252,7 @@ p.checkout-coupon input[type="text"] {
 	margin: 0 0 20px;
 	padding-bottom: 10px;
 	width: 100%;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .your-order-table table {
@@ -1387,7 +1387,7 @@ p.checkout-coupon input[type="text"] {
 	height: 40px;
 	margin: 0px 0 0;
 	padding: 0;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	transition: all 0.3s ease 0s;
 	width: 100%;
 }
@@ -1412,7 +1412,7 @@ p.checkout-coupon input[type="text"] {
 	margin-bottom: 0;
 	padding: 3px 10px;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
 	white-space: nowrap;
@@ -1559,7 +1559,7 @@ p.checkout-coupon input[type="text"] {
 .sidebar-action-title {
 	font-size: 20px;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .sidebar-list-item {
@@ -1609,7 +1609,7 @@ p.checkout-coupon input[type="text"] {
 	}
 	.product-name {
 		font-size: 16px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		color: var(--clr-theme-1);
 		font-weight: 600;
 		line-height: 22px;
@@ -1835,7 +1835,7 @@ ul.product_list_widget img {
 .product-single span.onsale {
 	background: var(--clr-common-color-red-2);
 	color: var(--clr-common-white);
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 12px;
 	position: absolute;

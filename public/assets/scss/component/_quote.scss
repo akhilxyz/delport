@@ -11,7 +11,7 @@
 		font-family: $oswald;
 		font-size: 16px;
 		font-weight: 500;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		color: var(--clr-common-heading);
 	}
 	i {
@@ -46,7 +46,7 @@
 		color: var(--clr-common-placeholder);
 		font-size: 16px !important;
 		opacity: 1;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-family: $oswald;
 	}
     .nice-select {

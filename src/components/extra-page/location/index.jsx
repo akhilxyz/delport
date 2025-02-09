@@ -10,7 +10,7 @@ const index = () => {
         <main>
             <Breadcrumb title="Locations" subTitle="Locations" />
             <Terminals />
-            <OfficeArea />
+            {/* <OfficeArea /> */}
         </main>
     );
 };

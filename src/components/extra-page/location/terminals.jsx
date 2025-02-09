@@ -1,7 +1,7 @@
 import californiaFlag from '@assets/img/contact/California.png';
 import oklahomaFlag from '@assets/img/contact/Oklahoma.png';
-// import indianaFlag from '@assets/img/contact/indiana.png';
-// import newJerseyFlag from '@assets/img/contact/newjersey.png';
+import indianaFlag from '@assets/img/contact/indiana.png';
+import newJerseyFlag from '@assets/img/contact/newjersey.png';
 import Link from 'next/link';
 // import Image from 'next/image';
 
@@ -23,14 +23,16 @@ const Terminals = () => {
         },
         {
             name: 'Indianapolis',
-            background: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6yFWkun1FhchEz5_XQJuS_E9AXmRD8Nkzg&s',
+            // background: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6yFWkun1FhchEz5_XQJuS_E9AXmRD8Nkzg&s',
+            background: indianaFlag,
             address: '1702 S Belmont Ave, Indianapolis, IN 46221, USA',
             link: 'https://www.google.com/maps/place/1702+S+Belmont+Ave,+Indianapolis,+IN+46221,+USA/',
             icon: 'far fa-map-marker-alt',
         },
         {
             name: 'New Jersey',
-            background: 'https://cdn.britannica.com/99/2999-050-43E57A0F/state-flag-New-Jersey-George-Washington-field-1779.jpg',
+            // background: 'https://cdn.britannica.com/99/2999-050-43E57A0F/state-flag-New-Jersey-George-Washington-field-1779.jpg',
+            background: newJerseyFlag,
             address: '623-REAR Prospect St, Trenton, NJ 08618, USA',
             link: 'https://www.google.com/maps/search/623-REAR+Prospect+St,+Trenton,+NJ+08618,+USA/',
             icon: 'far fa-map-marker-alt',
@@ -64,7 +66,7 @@ const Terminals = () => {
                             </div>
 
                             {/* Terminal Box */}
-                            <div className="job-wrapper mb-30" style={{ 
+                            {/* <div className="job-wrapper mb-30" style={{ 
                                 padding: "180px", 
                                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", 
                                 backgroundColor: "#fff", 
@@ -77,13 +79,13 @@ const Terminals = () => {
                                 alignItems: "center",
                                 textAlign: "center",
                                 paddingBottom: "20px" 
-                            }}>
-                                <div className="job-instructor-profile">
-                                    <div className="job-instructor-title">
+                            }}> */}
+                                {/* <div className="job-instructor-profile"> */}
+                                    {/* <div className="job-instructor-title"> */}
                                         {/* No name or address here */}
-                                    </div>
-                                </div>
-                            </div>
+                                    {/* </div> */}
+                                {/* </div> */}
+                            {/* </div> */}
                         </div>
                     ))}
                 </div>

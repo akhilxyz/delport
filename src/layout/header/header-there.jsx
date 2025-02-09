@@ -13,25 +13,25 @@ const HeaderThere = () => {
 
     return (
         <header>
-            <div 
+            <div
                 className="header__bottom-wrapper  header-transparent  pb-15"
-                style={{ background: 'transparent', position: 'relative', zIndex:'1000' }} // Inline style for transparency
+                style={{ background: 'transparent', position: 'relative', zIndex: '1000',paddingRight: "100px" }} // Inline style for transparency
             >
                 <div className="container">
                     <div className="header__bottom p-relative">
                         <div className="header__bottom-info">
                             <div className="row align-items-center">
-                            <div className="col-xl-2 col-lg-2 col-md-2 col-9 d-flex align-items-center" style={{ position: "relative" }}>
-                               <div className="logo logo-transform" style={{ position: "absolute", top: "50%", left:"-50px", transform: "translateY(-50%)", marginTop:"57px" }}>
-                                  <Link href="/">
-                                   <Image 
-                                    priority 
-                                     src={Logo} 
-                                      style={{ width: "300px", maxWidth: "none", height: "auto" }} 
-                                        alt="Logo" />
-                                    </Link>
-                                 </div>
-                            </div>
+                                <div className="col-xl-2 col-lg-2 col-md-2 col-9 d-flex align-items-center" style={{ position: "relative" }}>
+                                    <div className="logo logo-transform" style={{ position: "absolute", top: "50%", left: "-50px", transform: "translateY(-50%)", marginTop: "57px" }}>
+                                        <Link href="/">
+                                            <Image
+                                                priority
+                                                src={Logo}
+                                                style={{ width: "300px", maxWidth: "none", height: "auto" }}
+                                                alt="Logo" />
+                                        </Link>
+                                    </div>
+                                </div>
                                 <div className="col-xl-10 col-lg-10 col-md-10 col-3">
                                     <div className="text-end d-xl-none">
                                         <div className="header__toggle-btn sidebar-toggle-btn">
@@ -49,8 +49,8 @@ const HeaderThere = () => {
                                                     <i className="flaticon-telephone-call"></i>
                                                 </div>
                                                 <div className="header__info-text">
-                                                    <span>Call us now</span>
-                                                    <h5><Link href={`tel:${companyData.contact.phone.link}`}>{companyData.contact.phone.text}</Link></h5>
+                                                    <span style={{ color: "white" }}>Call us now</span>
+                                                    <h5><Link style={{ color: "white" }} href={`tel:${companyData.contact.phone.link}`}>{companyData.contact.phone.text}</Link></h5>
                                                 </div>
                                             </div>
                                             <div className="header__info-item">
@@ -58,8 +58,8 @@ const HeaderThere = () => {
                                                     <i className="flaticon-envelope"></i>
                                                 </div>
                                                 <div className="header__info-text">
-                                                    <span>Email now</span>
-                                                    <h5><Link href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</Link></h5>
+                                                    <span style={{ color: "white" }}>Email now</span>
+                                                    <h5><Link style={{ textTransform: "lowercase", color: 'white' }} href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</Link></h5>
                                                 </div>
                                             </div>
                                             <div className="header__info-item">
@@ -67,8 +67,8 @@ const HeaderThere = () => {
                                                     <i className="flaticon-pin"></i>
                                                 </div>
                                                 <div className="header__info-text">
-                                                    <span>{companyData.office[0].status.split(',')[0]}</span>
-                                                    <h5><Link href={companyData.office[0].link}>{companyData.office[0].status.split(',').slice(1).join(',')}</Link></h5>
+                                                    <span style={{ color: "white" }}>{companyData.office[0].status.split(',')[0]}</span>
+                                                    <h5><Link style={{ color: "white" }} href={companyData.office[0].link}>{companyData.office[0].status.split(',').slice(1).join(',')}</Link></h5>
                                                 </div>
                                             </div>
                                             <div style={{ display: 'flex', position: "relative", justifyContent: "center", alignItems: "center" }}>

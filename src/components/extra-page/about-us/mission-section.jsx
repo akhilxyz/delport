@@ -41,7 +41,7 @@ We want to be the preferred transportation provider, known for our commitment to
                                  </div>
                                  <div className="contact-info-text">
                                     <span>send email</span>
-                                    <h5><Link href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</Link> </h5>
+                                    <h5><Link style={{ textTransform: "lowercase" }} href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</Link> </h5>
                                  </div>
                               </div>
                            </div>

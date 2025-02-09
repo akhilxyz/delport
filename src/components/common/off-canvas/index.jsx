@@ -69,7 +69,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   <div className="sidebar__info-text">
                     <span>Email now</span>
                     <h5>
-                      <a href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</a>
+                      <a style={{textTransform: 'lowercase'}} href={`mailto:${companyData.contact.email}`}>{companyData.contact.email}</a>
                     </h5>
                   </div>
                 </div>

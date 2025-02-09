@@ -1,5 +1,5 @@
 import blog_img from "@assets/img/insights/tm-1.png";
-import blog_img_2 from "@assets/img/insights/truck-man-far.jpg";
+import blog_img_2 from "@assets/img/insights/ecofriendly.jpg";
 import blog_img_3 from "@assets/img/blog/blog-page-img-2.jpg";
 import imgOne from "@assets/img/insights/CARB.png";
 import imgTwo from "@assets/img/insights/NMFTA.png";
@@ -19,7 +19,7 @@ const insight_data = [
     comments: 12,
     commentIcon: "fas fa-comments",
     userIcon: "fas fa-user",
-    title: "Golden Mile is setting the standard for eco-friendly logistics.",
+    title: <>Golden Mile is setting the standard for <span style={{color: "green"}}>eco-friendly</span> logistics.</>,
     description:
       "Golden Mile is dedicated to environmental responsibility with our fleet of modern trucks that have low emissions. By regularly maintaining them carefully, we ensure efficient operation, reducing our environmental impact and promoting cleaner air for everyone. In addition to our advanced fleet, we have integrated cutting-edge technology to optimize our routes and minimize fuel consumption. This not only enhances our operational efficiency but also significantly lowers our carbon footprint. Our commitment to sustainability extends beyond our fleet. We actively participate in and support initiatives aimed at conserving natural resources and reducing waste throughout our supply chain. By implementing innovative practices such as energy-efficient warehousing and packaging solutions, we are continuously striving to improve our environmental stewardship.",
   },

@@ -6,7 +6,7 @@ import { px } from "framer-motion";
 
 const InsightSection = () => {
   return (
-    <section className="blog pt-90 pb-85 white-bg">
+    <section className="blog pt-60 pb-30 white-bg">
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div
@@ -110,7 +110,7 @@ const InsightSection = () => {
               >
                 {insight_data_logos.slice(0, 5).map((item, index) => (
                   <div
-                    className="col-md-2"
+                    className="col-md-3"
                     key={item.id}
                     style={{
                       display: "flex",
@@ -138,7 +138,7 @@ const InsightSection = () => {
               style={{
                 marginTop: "10px",
                 borderTop: "1px solid black",
-                paddingTop: "10px",
+                paddingTop: "50px",
                 textAlign: "center",
               }}
             >
@@ -149,22 +149,23 @@ const InsightSection = () => {
                   fontWeight: "bold",
                   textalign: "center",
                   fontFamily: "Oswald, sans-serif",
-                  padding: "10px",
+                  paddingBottom: "30px",
+                  paddingTop: "10px",
                   marginBottom: "20px", // Added space below the heading
                 }}
               >
                 Community Involvement 
               </p>
               <iframe
-                width="560"
-                height="315"
+                width="620"
+                height="350"
                 padding="10px"
                 src="https://www.youtube.com/embed/89ogadnQ8uo?si=QKteZKcSQR5wwc-A"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                style={{ border: "none" }}
+                style={{ border: "none"}}
               ></iframe>
                 <p>
                   Our support towards LA wildfires.

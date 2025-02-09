@@ -71,7 +71,7 @@ const WorkProcessArea = () => {
                                 <div className="work__content">
                                     <div className="section__title mb-45">
                                         <span className="sub-title">process</span>
-                                        <h2 className="title">{`SETTING THE GOLD STANDARD `} IN TRANSPORTAION</h2>
+                                        <h2 className="title">{`Setting The Gold Standards `} in Transportation</h2>
                                     </div>
                                     <div className="work__content-list pr-60">
                                         {

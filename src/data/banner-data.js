@@ -27,7 +27,7 @@ const bannerData = [
     image: '',
     text: "welcome to golden mile",
     banner_title: <span style={{color: "white"}}>Customer Satisfaction</span>,
-    title_two: <span style={{color: "white"}}>Is Our Mission.</span>,
+    title_two: <span style={{color: "white"}}>is Our Mission.</span>,
   },
   {
     id: 6,
@@ -35,7 +35,7 @@ const bannerData = [
     text: "welcome to Golden Mile",
     banner_title: (
       <span style={{color: "white"}}>
-        Breaking The <span style={{ color: "white" }}>Mold and Shattering </span>
+        Breaking the <span style={{ color: "white" }}>Mold & Shattering </span>
       </span>
     ),
     title_two: <span style={{color: "white"}}>Expectations.</span>,

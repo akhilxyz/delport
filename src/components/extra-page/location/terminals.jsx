@@ -1,7 +1,7 @@
-import californiaFlag from '@assets/img/contact/California.png';
-import oklahomaFlag from '@assets/img/contact/Oklahoma.png';
-import indianaFlag from '@assets/img/contact/indiana.png';
-import newJerseyFlag from '@assets/img/contact/newjersey.png';
+// import californiaFlag from '@assets/img/contact/California.png';
+// import oklahomaFlag from '@assets/img/contact/Oklahoma.png';
+// import indianaFlag from '@assets/img/contact/indiana.png';
+// import newJerseyFlag from '@assets/img/contact/newjersey.png';
 import Link from 'next/link';
 // import Image from 'next/image';
 
@@ -9,14 +9,14 @@ const Terminals = () => {
     const terminalsData = [
         {
             name: 'California',
-            background: californiaFlag,
+            // background: californiaFlag,
             address: '747 W. Rialto Avenue, San Bernardino, CA, 92410',
             link: 'https://www.google.com/maps/place/747+W+Rialto+Ave,+San+Bernardino,+CA+92410,+USA/',
             icon: 'far fa-map-marker-alt',
         },
         {
             name: 'Oklahoma',
-            background: oklahomaFlag,
+            // background: oklahomaFlag,
             address: '7400 SW 3rd St, Oklahoma City, OK 73128, USA',
             link: 'https://www.google.com/maps/place/7400+SW+3rd+St,+Oklahoma+City,+OK+73128,+USA/',
             icon: 'far fa-map-marker-alt',
@@ -24,7 +24,7 @@ const Terminals = () => {
         {
             name: 'Indianapolis',
             // background: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6yFWkun1FhchEz5_XQJuS_E9AXmRD8Nkzg&s',
-            background: indianaFlag,
+            // background: indianaFlag,
             address: '1702 S Belmont Ave, Indianapolis, IN 46221, USA',
             link: 'https://www.google.com/maps/place/1702+S+Belmont+Ave,+Indianapolis,+IN+46221,+USA/',
             icon: 'far fa-map-marker-alt',
@@ -32,7 +32,7 @@ const Terminals = () => {
         {
             name: 'New Jersey',
             // background: 'https://cdn.britannica.com/99/2999-050-43E57A0F/state-flag-New-Jersey-George-Washington-field-1779.jpg',
-            background: newJerseyFlag,
+            // background: newJerseyFlag,
             address: '623-REAR Prospect St, Trenton, NJ 08618, USA',
             link: 'https://www.google.com/maps/search/623-REAR+Prospect+St,+Trenton,+NJ+08618,+USA/',
             icon: 'far fa-map-marker-alt',

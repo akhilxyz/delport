@@ -8,20 +8,6 @@ import Link from 'next/link';
 const Terminals = () => {
     const terminalsData = [
         {
-            name: 'California',
-            // background: californiaFlag,
-            address: '747 W. Rialto Avenue, San Bernardino, CA, 92410',
-            link: 'https://www.google.com/maps/place/747+W+Rialto+Ave,+San+Bernardino,+CA+92410,+USA/',
-            icon: 'far fa-map-marker-alt',
-        },
-        {
-            name: 'Oklahoma',
-            // background: oklahomaFlag,
-            address: '7400 SW 3rd St, Oklahoma City, OK 73128, USA',
-            link: 'https://www.google.com/maps/place/7400+SW+3rd+St,+Oklahoma+City,+OK+73128,+USA/',
-            icon: 'far fa-map-marker-alt',
-        },
-        {
             name: 'Indianapolis',
             // background: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL6yFWkun1FhchEz5_XQJuS_E9AXmRD8Nkzg&s',
             // background: indianaFlag,
@@ -37,6 +23,20 @@ const Terminals = () => {
             link: 'https://www.google.com/maps/search/623-REAR+Prospect+St,+Trenton,+NJ+08618,+USA/',
             icon: 'far fa-map-marker-alt',
         },
+        {
+            name: 'Oklahoma',
+            // background: oklahomaFlag,
+            address: '7400 SW 3rd St, Oklahoma City, OK 73128, USA',
+            link: 'https://www.google.com/maps/place/7400+SW+3rd+St,+Oklahoma+City,+OK+73128,+USA/',
+            icon: 'far fa-map-marker-alt',
+        },
+        {
+            name: 'California',
+            // background: californiaFlag,
+            address: '747 W. Rialto Avenue, San Bernardino, CA, 92410',
+            link: 'https://www.google.com/maps/place/747+W+Rialto+Ave,+San+Bernardino,+CA+92410,+USA/',
+            icon: 'far fa-map-marker-alt',
+        },
     ];
 
     return (
@@ -45,14 +45,14 @@ const Terminals = () => {
                 <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-md-8">
                         <div className="section__title mb-55 text-center">
-                            <span className="sub-title">Find</span>
+                            <span className="sub-title"></span>
                             <h2 className="title">our terminals</h2>
                         </div>
                     </div>
                 </div>
                 <div className="row wow fadeInUp" data-wow-delay=".5s">
                     {terminalsData.map((item, index) => (
-                        <div className="col-xl-6 col-lg-6" key={index}>
+                        <div className="" key={index}>
                             {/* Display name and address outside the box */}
                             <div className="terminal-info mb-30 text-center">
                                 <div style={{ fontSize: "28px", fontWeight: "bold", color: "#ddad58" }}>

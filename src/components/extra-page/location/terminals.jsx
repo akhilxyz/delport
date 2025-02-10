@@ -40,7 +40,7 @@ const Terminals = () => {
     ];
 
     return (
-        <section className="job-area pt-120 pb-90">
+        <section className="job-area pt-30 pb-60">
             <div className="container">
                 <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-md-8">

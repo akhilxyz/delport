@@ -11,7 +11,7 @@ import Link from 'next/link';
 const Breadcrumb = ({ title, subTitle }) => {
     // Define different background images based on the title
     const getBackgroundImage = () => {
-        switch(title) {
+        switch (title) {
             case 'Contact':
                 return title1_bg.src;  // Use image for Title 1
             case 'Solutions':
@@ -28,26 +28,48 @@ const Breadcrumb = ({ title, subTitle }) => {
     };
 
     return (
-        <section className="page-title-area breadcrumb-spacing" style={{ height: '100vh', display: 'flex', alignItems: 'center',
-         backgroundImage: `url(${getBackgroundImage()})`, marginTop:'-120px' }}>
-            <div className="container">
-                <div className="row justify-content-center mb-120">
-                    <div className="col-xxl-9">
-                        <div className="page-title-wrapper text-center mt-100">
-                            <h3 className="page-title mb-30">{title}</h3>
-                            <div className="breadcrumb-menu">
-                                <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
-                                    <ul className="trail-items">
-                                        <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
-                                        <li className="trail-item trail-end"><span>{subTitle}</span></li>
-                                    </ul>
-                                </nav>
+        <div>
+            {
+                title !== 'Locations' ?
+                    <section className="page-title-area breadcrumb-spacing" style={{
+                        height: '100vh', display: 'flex', alignItems: 'center',
+                        backgroundImage: `url(${getBackgroundImage()})`, marginTop: '-120px'
+                    }}>
+                        <div className="container">
+                            <div className="row justify-content-center mb-120">
+                                <div className="col-xxl-9">
+                                    <div className="page-title-wrapper text-center mt-100">
+                                        <h3 className="page-title mb-30">{title}</h3>
+                                        <div className="breadcrumb-menu">
+                                            <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
+                                                <ul className="trail-items">
+                                                    <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
+                                                    <li className="trail-item trail-end"><span>{subTitle}</span></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </section> :
+                    <section
+                        style={{
+                            height: '200vh',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            backgroundImage: `url(${getBackgroundImage()})`,
+                            backgroundSize: window.innerWidth < 768 ? 'contain' : 'cover',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            width: '100vw',
+                            marginTop: '-120px',
+                        }}
+                    >
+                    </section>
+            }
+        </div>
     );
 };
 
